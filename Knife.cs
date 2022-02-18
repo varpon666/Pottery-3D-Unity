@@ -11,7 +11,7 @@ public class Knife : MonoBehaviour
 
     private void OnCollisionStay(Collision collision)
     {
-        Colliders collider = collision.collider.GetComponent<Colliders>();
+        WoodCollider collider = collision.collider.GetComponent<WoodCollider>();
 
         if(collider != null)
         {
